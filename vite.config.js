@@ -4,6 +4,6 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  plugins: [react(), tailwindcss()],
-  base: '/gurukul/', // 👈 Add your repo name here
+  base: '/gurukul/', // your repo name
+  plugins: [react()],
 })
